@@ -1,10 +1,11 @@
-# _Word Counter_
-
-### _The program takes both a single word, and a sentence from the user as input and then returns a number corresponding with the number of times the inputted word appears in the inputted sentence. 04/26/2019_
+## _Word Counter_
 
 ### _***Kevin Garvey***_
 
-# _Specifications:_
+#### _Description:_
+##### _The program takes both a single word, and a sentence from the user as input and then returns a number corresponding with the number of times the inputted word appears in the inputted sentence. 04/26/2019_
+
+#### _Specifications:_
 
 1. The RepeatCounter constructor creates a new instance of the RepeatCounter object. This only tests whether the object itself was successfully constructed and not any of the object's values or methods. It is therefore the simplest possible test.
     - input: RepeatCounter newRepeatCounter = new RepeatCounter("cat", "The cat came back.").
@@ -50,17 +51,17 @@
     - input: "cat", "The word 'concatenate' can be created by concatenating  'con' + 'cat' + 'enate'."
     - output: 1
 
-## Known Bugs
+### Known Bugs
 
-## Support and contact details
+### Support and contact details
 
 _Please contact me at kmgarvey279@gmail.com if you have any questions or comments._
 
-## Technologies Used
+### Technologies Used
 
-_C#_
-_Mono_
-_.Net_
+_- C#_
+_- Mono_
+_- .Net_
 ### License
 
 _This software is licensed under the MIT license._
