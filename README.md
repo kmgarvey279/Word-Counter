@@ -4,20 +4,20 @@
 
 ### _***Kevin Garvey***_
 
-## _Description_
+# _Description_
 
-#_Specifications:_
+# _Specifications:_
 
 _*1) The RepeatCounter constructor creates a new instance of the RepeatCounter object. This only tests whether the object itself was successfully constructed and not any of the object's values or methods. It is therefore the simplest possible test.
-input: RepeatCounter newRepeatCounter = new RepeatCounter("cat", "The cat came back.");
-output: newRepeatCounter.GetType() == RepeatCounter;
+input: RepeatCounter newRepeatCounter = new RepeatCounter("cat", "The cat came back.")
+output: newRepeatCounter.GetType() == RepeatCounter
 
 *2) The RepeatCounter returns the inputted word using getter methods. This pair of tests are the next to be performed because they only checks that the inputted arguments are successfully passed into the object and that the getter methods are functioning correctly.
-input: newRepeatCounter.GetWord();
+input: newRepeatCounter.GetWord()
 output: "cat"
 
 *3)The RepeatCounter returns the inputted sentence using getter methods. This pair of tests are the next to be performed because they only checks that the inputted arguments are successfully passed into the object and that the getter methods are functioning correctly.
-input: newRepeatCounter.GetSentence();
+input: newRepeatCounter.GetSentence()
 output: "The cat came back."
 
 *4) The RepeatCounter takes a single lower-case character as a 'Word' argument and a single lower-case character as a 'Sentence' argument and returns '1' if both are identical. This is the first test to perform computations on the inputted values and uses identical values to make sure that the basic functionality to check for matches is in place.
