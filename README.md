@@ -51,6 +51,11 @@
     - input: "cat", "The word 'concatenate' can be created by concatenating  'con' + 'cat' + 'enate'."
     - output: 1
 
+### Setup/Installation 
+- Clone the entire WordCounter.Solutions directory from https://github.com/kmgarvey279/Word-Counter.
+- The program does not currently have a user interface, so it can only be tested using .Net.
+- To test the program, simply navigate to the WordCounter.Tests directory and run dotnet test in the command line.  
+
 ### Known Bugs
 
 ### Support and contact details
