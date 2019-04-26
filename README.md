@@ -1,4 +1,4 @@
-#_Word Counter_
+# _Word Counter_
 
 ### _The program takes both a single word, and a sentence from the user as input and then returns a number corresponding with the number of times the inputted word appears in the inputted sentence. 04/26/2019_
 
