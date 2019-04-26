@@ -4,10 +4,11 @@
 
 ### _***Kevin Garvey***_
 
-## Description
+## _Description_
 
-_Specifications:
-*1) The RepeatCounter constructor creates a new instance of the RepeatCounter object. This only tests whether the object itself was successfully constructed and not any of the object's values or methods. It is therefore the simplest possible test.
+#_Specifications:_
+
+_*1) The RepeatCounter constructor creates a new instance of the RepeatCounter object. This only tests whether the object itself was successfully constructed and not any of the object's values or methods. It is therefore the simplest possible test.
 input: RepeatCounter newRepeatCounter = new RepeatCounter("cat", "The cat came back.");
 output: newRepeatCounter.GetType() == RepeatCounter;
 
